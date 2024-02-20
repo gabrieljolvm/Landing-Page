@@ -1,0 +1,21 @@
+{
+  "homepage": "https://gjom.github.io/Landing_Page",
+  "name": "manage-landing-page2",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0"
+  },
+  "dependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
